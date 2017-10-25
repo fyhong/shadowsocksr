@@ -1,4 +1,30 @@
 [
+        {
+        "d": 0,
+        "enable": 1,
+        "method": "aes-128-ctr",
+        "obfs": "tls1.2_ticket_auth_compatible",
+        "passwd": "myt",
+        "port": 443,
+        "protocol": "auth_aes128_md5",
+        "protocol_param": "#",
+        "transfer_enable": 9007199254740992,
+        "u": 0,
+        "user": "443"
+    }
+        {
+        "d": 0,
+        "enable": 1,
+        "method": "aes-128-ctr",
+        "obfs": "tls1.2_ticket_auth_compatible",
+        "passwd": "test",
+        "port": 80,
+        "protocol": "auth_aes128_md5",
+        "protocol_param": "#",
+        "transfer_enable": 9007199254740992,
+        "u": 0,
+        "user": "80"
+    }
     {
         "d": 7627127605,
         "enable": 1,
